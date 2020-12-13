@@ -21,3 +21,9 @@ Graphics are an important part of any website. They add visual appeal and help t
 7. When submitting your project be sure to make a note in the comments which browsers and versions you have tested with.
 
 8. And remember you can only use an 'ID' once so double check the SVG images when adding them.
+
+# Extra Credit
+
+1. Use inline SVGs for the images of the dogs and then change the color of the dogs' coats using a CSS style sheet to match the original colors of the dogs. (You can find the colors used by looking at the CSS within the SVG dog files)
+
+2. Add additional CSS effects, like transition effects to the menu icon hover state.
