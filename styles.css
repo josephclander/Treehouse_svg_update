@@ -93,7 +93,7 @@ Update Requirements
   margin: 0 auto;
 }
 
-#layer_1 {
+.svg__logo {
   max-width: 100%;
 }
 
@@ -116,6 +116,46 @@ a:hover .menu-icons {
 
 #nav-location {
   height: 14px;
+}
+
+/*******************
+SVG DOG Styles
+********************/
+
+.svg__red,
+.svg__fawn,
+.svg__sable,
+.svg__blacktan {
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+.dog__white {
+  fill: #fbfeff;
+}
+
+.dog__nose-eyes {
+  fill: #2d3339;
+}
+
+.dog__eyebrows {
+  fill: #ba8058;
+}
+
+.dog__red-dog {
+  fill: #eaaa7f;
+}
+
+.dog__fawn-dog {
+  fill: #f4c6a6;
+}
+
+.dog__sable-dog {
+  fill: #844b24;
+}
+
+.dog__black-tan-dog {
+  fill: #52595f;
 }
 
 /******************/
@@ -154,15 +194,16 @@ main li {
   display: inline-block;
   color: #ba8058;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-main li img {
+/* styling nefore swap for svg */
+/* main li img {
   margin-bottom: 15px;
-  /***********************/
+
   height: 170px;
   width: 170px;
-  /***********************/
-}
+} */
 
 main li span {
   margin-left: -40px;
