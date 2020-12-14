@@ -27,3 +27,7 @@ Graphics are an important part of any website. They add visual appeal and help t
 1. Use inline SVGs for the images of the dogs and then change the color of the dogs' coats using a CSS style sheet to match the original colors of the dogs. (You can find the colors used by looking at the CSS within the SVG dog files)
 
 2. Add additional CSS effects, like transition effects to the menu icon hover state.
+
+# Notes from the build
+
+This site was tested on browsers: Chrome 87, Safari 14.0.1 and Firefox 84.0b8 without noting any issues.
