@@ -212,9 +212,9 @@ main li span {
   margin-left: -40px;
 }
 
-main li:last-child {
+/* main li:last-child {
   margin-right: 0;
-}
+} */
 
 footer {
   width: 100%;
