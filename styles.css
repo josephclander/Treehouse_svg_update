@@ -30,6 +30,7 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
+  transition: color 0.3s;
 }
 a:hover {
   color: #111;
@@ -103,6 +104,7 @@ h1.logo-text {
 
 .menu-icons {
   fill: #39add1;
+  transition: fill 0.3s;
 }
 
 a:hover .menu-icons {
