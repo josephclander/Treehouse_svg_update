@@ -42,11 +42,11 @@ SVG Animation
 
 @keyframes drop {
   50% {
-    transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 3px, 0);
   }
 
   80% {
-    transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -3px, 0);
   }
 
   100% {
@@ -60,11 +60,11 @@ SVG Animation
   }
 
   30% {
-    transform: rotate(-20deg);
+    transform: rotate(-5deg);
   }
 
   70% {
-    transform: rotate(20deg);
+    transform: rotate(5deg);
   }
 
   100% {
@@ -72,13 +72,9 @@ SVG Animation
   }
 }
 
-/* #logo-box * {
-  transform-origin: 50% 50%;
-} */
-
-.logo {
+.svg__logo {
   transform-origin: 70.4px 69.9px;
-  transform: translate3d(0, -120px, 0);
+  transform: translate3d(0, -20px, 0);
   animation: drop 1s 1s forwards, shake 1s 2.3s forwards;
   -webkit-animation: drop 1s 1s forwards, shake 1s 2.3s forwards;
 }
@@ -158,6 +154,11 @@ SVG DOG Styles
 
 .dog__black-tan-dog {
   fill: #52595f;
+}
+
+.svg__dog:hover {
+  animation: shake 1s forwards;
+  transform-origin: 40% 80%;
 }
 
 /******************/
